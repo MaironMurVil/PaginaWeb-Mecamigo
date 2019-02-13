@@ -50,7 +50,7 @@
     <!-- Menú -->
     <div class="rounded-pill bg-dark container">
       <ul class="nav justify-content-center">
-        <li class="nav-item">
+        <li class="nav-item" onclick="location='http://localhost/mecamigo/PaginaWeb-Mecamigo/paginas/juegosPag.php'"  >
           <a class="nav-link active text-white font-weight-bolder" href="#">JUEGOS</a>
         </li>
         <li class="nav-item">
