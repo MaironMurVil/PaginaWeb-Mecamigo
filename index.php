@@ -10,6 +10,7 @@
 
     <!-- Mis arreglitos pequeños de CSS -->
     <link rel="stylesheet" href="css/busca.css">
+    <link rel="stylesheet" href="css/login.css">
 
     <!-- Carrusel CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -20,7 +21,7 @@
     <title>MECAMIGO</title>
 
   </head>
-  <body background="img/fondo.jpg">
+  <body>
 
   <nav class="navbar navbar-expand-lg navbar-light container">
       
@@ -50,8 +51,7 @@
     <!-- Menú -->
     <div class="rounded-pill bg-dark container">
       <ul class="nav justify-content-center">
-        <li class="nav-item" onclick="location='http://localhost/mecamigo/PaginaWeb-Mecamigo/paginas/juegosPag.php'"  >
-          <a class="nav-link active text-white font-weight-bolder" href="#">JUEGOS</a>
+        <a class="nav-link active text-white font-weight-bolder" href="paginas/juegosPag.php">JUEGOS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white font-weight-bolder" href="#">LOGROS</a>
@@ -66,7 +66,7 @@
     </div>
 
     <!-- Carrusel -->
-    <div class="container" style="margin-top: 40px; width: 900px;">
+    <div class="container" style="margin-top: 40px; width: 900px;"> <!-- NO PUDE QUITAR ESTE CSS, lo q hace es centrar el carrucel, pero ya lo intente con clase, id y nada -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
