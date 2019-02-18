@@ -20,9 +20,9 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="card text-center">
-          <img class="card-img-top" src="../img/juego1.png">
+          <img class="card-img-top" src="../img/spacewar.png">
           <div class="card-body">
-          <p class="card-title">JUEGO 1</p>
+          <p class="card-title">Space War</p>
           <a href="juegosPag.php" class="btn btn-primary">Jugar!</a>
           </div>
         </div>

@@ -20,7 +20,7 @@
     <div class="row"> <!--Fila, se activa la etiqueta "col-sm" para organizar n tarjetas/cuadros en una fila-->
       <div class="col-sm-4"><!--col-sm, el numero 4 (4/12) determina el tamaño de la tarjeta/cuadro -->
         <div class="card text-center"><!--card, color de fondo - testo centrado -->
-          <img class="card-img-top" src="../img/perfil.gif">
+          <img class="card-img-top" src="../img/meta1.png">
           <div class="card-body">
           <p class="card-text font-weight-bold">PRIMER LOGRO</p>
           <p class="card-text">Crear mi cuenta</p>
