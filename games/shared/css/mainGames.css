@@ -1,0 +1,97 @@
+.icono{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+#carouselExampleIndicators{
+    margin-top: 40px;
+    width: 900px;
+}
+
+.fg{
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+}
+
+.targeta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.colfondo{
+    background-color: #A6A0E8;
+}
+
+.colfondo1{
+    background-color: #FFFFFF;
+}
+
+.colfondo2{
+    background-color: #EFFF4A;
+}
+#misingo{
+    width: 18rem;
+}
+
+	/* Coded with love by Mutiullah Samim */
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-image: url("../img/fondo.jpg");
+    }
+    .user_card {
+       
+        height: 400px;
+        width: 350px;
+        margin-top: auto;
+        margin-bottom: auto;
+        background: #60a3bc !important;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+
+    }
+    .brand_logo_container {
+        position: absolute;
+        height: 170px;
+        width: 170px;
+        top: -75px;
+        border-radius: 50%;
+        background: #68B1CD;
+        padding: 10px;
+        text-align: center;
+    }
+    .brand_logo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+   .gameBox{
+
+
+
+    margin: 0 auto;
+    margin-top: 5%; 
+    border-style: dotted;
+   }
+
+   .cardBoxes{
+   
+    margin-top: 40%; 
+    
+   }
+    

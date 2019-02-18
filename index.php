@@ -9,25 +9,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!-- Mis arreglitos pequeños de CSS -->
-    <link rel="stylesheet" href="css/busca.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
+
 
     <!-- Carrusel CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <title>MECAMIGO</title>
-
+  
+    <title>Funny Games</title>
+    <link rel="stylesheet" href="../css/mainStyle.css">
+    <!-- Plantilla -->
+    <link href="css/stylePlantilla.css" rel="stylesheet">
+    <link href="css/P_bootstrap.min.css" rel="stylesheet">
+    <script src="js/P_custom.min.js"></script>
+    <link href="css/P_perfect-scrollbar.css" rel="stylesheet">
   </head>
   <body>
-
+  <header class="topbar"> <!-- <-------- PLANTILLA  ***************** -->
   <nav class="navbar navbar-expand-lg navbar-light container">
       
       <!--LOGO-->
       <a class="navbar-brand" href="index.php">
-        <img src="img/fg2.png" class="fg">
+        <img src="src/img/fg2.png" class="fg">
       </a>
       
       <!-- Buscador -->
@@ -35,33 +38,52 @@
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="¿Qué quieres buscar?" aria-describedby="basic-addon2">
           <div class="input-group-append">
-            <button class="btn btn-light" type="button"><img src="img/lupa.png"></button>
+            <button class="btn btn-light" type="button"><img src="src/img/lupa.png"></button>
           </div>
         </div> 
       </div>
 
       <!--diamante-->
-      <img src="img/coin.png" class="icono"><p>199</p>
+      <img src="src/img/coin.png" class="profile-pic" ><p> 199 </p>
 
-      <!-- Perfil -->
-      <img src="img/perfil.gif" class="icono"><p>Gorshito</p>      
+  <!--PLANTILLA - perfil ***************** -->
 
+  <ul class="navbar-nav my-lg-0">
+                    
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="src/img/perfil.gif" alt="user" class="profile-pic"></a>
+              <div class="dropdown-menu dropdown-menu-right animated flipInY">
+                  <ul class="dropdown-user">
+                      <li>
+                          <div class="dw-user-box">
+                              <div class="u-img"><img src="src/img/perfil.gif" alt="user"></div>
+                              <div class="u-text">
+                                  <h4>Daniel Velasquez</h4>
+                                  <p class="text-muted">gorsitho@gmail.com</p><a href="perfil.php" class="btn btn-rounded btn-danger btn-sm">Perfil</a></div>
+                          </div>
+                      </li>
+
+                      <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                  </ul>
+              </div>
+          </li>
+      </ul>
     </nav>
-
+</header>
     <!-- Menú -->
     <div class="rounded-pill bg-dark container">
       <ul class="nav justify-content-center">
       	<li class="nav-item">
-        	<a class="nav-link text-white font-weight-bolder" href="paginas/juegos.php">JUEGOS</a>
+        	<a class="nav-link text-white font-weight-bolder" href="juegos.php">JUEGOS</a>
         </li>
         <li class="nav-item">
-          	<a class="nav-link text-white font-weight-bolder" href="paginas/logros.php">LOGROS</a>
+          	<a class="nav-link text-white font-weight-bolder" href="logros.php">LOGROS</a>
         </li>
         <li class="nav-item">
           	<a class="nav-link text-white font-weight-bolder" href="http://www.rivedaleconsulting.com/_/rsrc/1468742830501/home/pagina-web-construccion.jpg">TIENDA</a>
         </li>
         <li class="nav-item">
-          	<a class="nav-link text-white font-weight-bolder" href="paginas/info.php">INFORMACIÓN</a>
+          	<a class="nav-link text-white font-weight-bolder" href="info.php">INFORMACIÓN</a>
         </li>
       </ul>
     </div>
@@ -76,19 +98,19 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="img/1.jpg" alt="First slide">
+          <img class="d-block w-100" src="src/img/1.jpg" alt="First slide">
           <div class="carousel-caption d-none d-md-block">
           <h5 class="alert-info">CONOCE A MECAMIGO</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/2.jpg" alt="Second slide">
+        <img class="d-block w-100" src="src/img/2.jpg" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="alert-info">SU ESTRUCTURA</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/3.jpg" alt="Third slide">
+        <img class="d-block w-100" src="src/img/3.jpg" alt="Third slide">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="alert-info">SU FUTURO</h5>
         </div>
@@ -110,7 +132,7 @@
       <div class="col-md-4">
         <div class="container">
           <div class="colfondo rounded">
-            <img src="img/juegos.png" class="mx-auto d-block">
+            <img src="src/img/juegos.png" class="mx-auto d-block">
             <hr>
             <h3 class="text-center">¡Nuevos Juegos!</h3>
             <a class="btn btn-primary btn-lg" href="#" role="button">Aquí</a>
@@ -120,7 +142,7 @@
       <div class="col-md-4">
         <div class="container">
           <div class="colfondo1 rounded">
-            <img src="img/logro.jpg" class="mx-auto d-block">
+            <img src="src/img/logro.jpg" class="mx-auto d-block">
             <hr>
             <h3 class="text-center">¡Mis logros!</h3>
             <a class="btn btn-primary btn-lg" href="#" role="button">Aquí</a>
@@ -130,7 +152,7 @@
       <div class="col-md-4">
         <div class="container">
           <div class="colfondo2 rounded">
-            <img src="img/gema.png" class="mx-auto d-block">
+            <img src="src/img/gema.png" class="mx-auto d-block">
             <hr>
             <h3 class="text-center">¡Obtener más gemas!</h3>
             <a class="btn btn-primary btn-lg" href="#" role="button">Aquí</a>
@@ -142,9 +164,14 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
+  <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="js/P_jquery.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="js/P_popper.min.js"></script>
+     <!-- slimscrollbar scrollbar JavaScript -->
+     <script src="js/P_perfect-scrollbar.jquery.min.js"></script>
   </body>
 </html>

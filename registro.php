@@ -7,6 +7,7 @@
     <title>Registro</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="../css/mainStyle.css">
 </head>
 
 <body>

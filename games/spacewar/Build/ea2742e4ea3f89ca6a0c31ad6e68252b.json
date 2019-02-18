@@ -1,0 +1,15 @@
+{
+"companyName": "DefaultCompany",
+"productName": "SpaceWars",
+"dataUrl": "8c7cf1d8f8413714f2d8a62da26993e7.unityweb",
+"asmCodeUrl": "85d7d37ec208f6a2279829ab8f88defc.unityweb",
+"asmMemoryUrl": "58bfc378664f448c64da637071c981cf.unityweb",
+"asmFrameworkUrl": "b4ed420e665c2772d44604092f6747ce.unityweb",
+"asmSymbolsUrl": "0dc8ab4b26cf316027fe8600c038bcce.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
