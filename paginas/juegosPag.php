@@ -1,13 +1,7 @@
-<!doctype html>
-
-  <head>
-   <?php 
-   
+   <?php    
    include('shared/head.php');
-
-  
    ?>
-    <title>MECAMIGO</title>
+
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>  

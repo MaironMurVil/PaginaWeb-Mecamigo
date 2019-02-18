@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light container">
       
       <!--LOGO-->
-      <a class="navbar-brand" href="index2.html">
+      <a class="navbar-brand" href="../index.php">
         <img src="../img/fg2.png" class="fg">
       </a>
       
@@ -20,23 +20,21 @@
 
       <!-- Perfil -->
       <img src="../img/perfil.gif" class="icono"><p>Gorshito</p>      
-
-    </nav>
-
+</nav>
     <!-- Menú -->
     <div class="rounded-pill bg-dark container">
       <ul class="nav justify-content-center">
-        <li  class="nav-item" onclick="location='http://localhost/mecamigo/PaginaWeb-Mecamigo/paginas/juegosPag.php'"  >
-          <a class="nav-link active text-white font-weight-bolder" href="#">JUEGOS</a>
+        <li class="nav-item">
+          <a class="nav-link text-white font-weight-bolder" href="../paginas/juegos.php">JUEGOS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white font-weight-bolder" href="#">LOGROS</a>
+            <a class="nav-link text-white font-weight-bolder" href="../paginas/logros.php">LOGROS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white font-weight-bolder" href="#">TIENDA</a>
+            <a class="nav-link text-white font-weight-bolder" href="http://www.rivedaleconsulting.com/_/rsrc/1468742830501/home/pagina-web-construccion.jpg">TIENDA</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white font-weight-bolder" href="#">INFORMACIÓN</a>
+            <a class="nav-link text-white font-weight-bolder" href="../paginas/info.php">INFORMACIÓN</a>
         </li>
       </ul>
     </div>

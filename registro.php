@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="form-group medidas">
-                    <button type="submit" class="btn btn-success btn-lg">Registrar</button>
+                    <button type="submit" class="btn btn-primary btn-lg">Registrar</button>
                 </div>
             </form>
         </div>

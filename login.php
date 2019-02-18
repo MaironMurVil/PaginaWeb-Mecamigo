@@ -47,7 +47,7 @@
 				<div class="mt-4">
 					<p class="text-white">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
 					<div class="d-flex justify-content-center">
-						<div class="p-1 mb-3 bg-light text-dark rounded">
+						<div class="p-1 mb-3 bg-light rounded">
 							<a href="registro.php" class="text-decoration-none">REGISTRARSE</a>
 						</div>
 					</div>
