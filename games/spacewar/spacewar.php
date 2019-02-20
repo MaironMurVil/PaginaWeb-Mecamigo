@@ -1,7 +1,13 @@
    <?php    
-   include('../../shared/head.php');
+   include('../shared/head.php');
    ?>
-     <link rel="stylesheet" href="../shared/css/mainGames.css">
+    
+  <?php
+  if (isset($_SESSION['correo'])){
+  
+  
+  ?>
+
      <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>  
@@ -30,7 +36,7 @@
       <div class="col-md-4">
         <div class="container">
           <div class="colfondo rounded">
-            <img src="../shared/img/juegos.png" class="mx-auto d-block">
+            <img src="../../src/img/juegos.png" class="mx-auto d-block">
             <hr>
             <h3 class="text-center">¡Nuevos Juegos!</h3>
             <a class="btn btn-primary btn-lg" href="#" role="button">Aquí</a>
@@ -40,7 +46,7 @@
       <div class="col-md-4">
         <div class="container">
           <div class="colfondo1 rounded">
-            <img src="../shared/img/logro.jpg" class="mx-auto d-block">
+            <img src="../../src/img/logro.jpg" class="mx-auto d-block">
             <hr>
             <h3 class="text-center">¡Mis logros!</h3>
             <a class="btn btn-primary btn-lg" href="#" role="button">Aquí</a>
@@ -50,7 +56,7 @@
       <div class="col-md-4">
         <div class="container">
           <div class="colfondo2 rounded">
-            <img src="../shared/img/gema.png" class="mx-auto d-block">
+            <img src="../../src/img/gema.png" class="mx-auto d-block">
             <hr>
             <h3 class="text-center">¡Obtener más gemas!</h3>
             <a class="btn btn-primary btn-lg" href="#" role="button">Aquí</a>
@@ -61,3 +67,12 @@
 
   </body>
 </html>
+
+<?php
+}
+else{
+
+	header('Location: ../../login.php');
+}
+
+?>

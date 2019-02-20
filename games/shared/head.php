@@ -27,7 +27,8 @@
     <title>Funny Games</title>
     <link rel="stylesheet" href="css/mainStyle.css">
      <!-- Plantilla -->
-     <link href="css/stylePlantilla.css" rel="stylesheet">
+     <link href="../../css/stylePlantilla.css" rel="stylesheet">
     <link href="css/P_bootstrap.min.css" rel="stylesheet">
     <script src="js/P_custom.min.js"></script>
     <link href="css/P_perfect-scrollbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="../shared/css/mainGames.css">

@@ -44,7 +44,7 @@
         margin: 0;
         padding: 0;
         height: 100%;
-        background-image: url("../img/fondo.jpg");
+        background-image: url("../../../src/img/fondo.jpg");
     }
     .user_card {
        

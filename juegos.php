@@ -3,7 +3,14 @@
   include('shared/sideBar.php');
 ?>
 
-<link rel="stylesheet" href="css/mainStyle.css">
+  
+  <?php
+  if (isset($_SESSION['correo'])){
+  
+  
+  ?>
+
+
 
   </head>
   <body>
@@ -41,3 +48,14 @@
 
   </body>
 </html>
+
+
+
+<?php
+}
+else{
+
+	header('Location: login.php');
+}
+
+?>
